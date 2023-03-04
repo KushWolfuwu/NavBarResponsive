@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(img/bg.jpg);
+    background-size: cover;
+}
+
+.navbar {
+    position: absolute;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.navbar a {
+    color: white;
+
+}
+
+.navbar .logo {
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+.navbar .navlinks ul {
+    display: flex;
+}
+
+.navbar .navlinks ul li {
+    margin: 0 25px;
+}
+
+.navbar .navlinks ul li.active a {
+    color:rgb(178, 90, 230);
+    font-weight: 600;
+}
+
+.navbar .menu-hamburger {
+    display: none;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    width: 35px;
+}
+
+
+@media screen and (max-width:900px) {
+    .navbar {
+        padding: 0;
+    }
+
+    .navbar .menu-hamburger {
+        display: block;
+    }
+    .navlinks {
+        top: 0;
+        left: 0;
+        position: absolute;
+        background-color: rgba(255, 255, 255, 0.226);
+        backdrop-filter: blur(8px);
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -100%;
+        transition: all 0.5s ease;
+    }
+
+    .navlinks.mobile-menu {
+        margin-left: 0;
+    }
+
+    .navlinks ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar .navlinks ul li {
+        margin: 25px 0;
+        font-size: 1.2em;
+    }
+
+    .navbar .logo {
+        position: absolute;
+        top: 50px;
+        left: 50px;
+    }
+}
