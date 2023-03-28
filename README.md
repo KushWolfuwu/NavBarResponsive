@@ -1,5 +1,5 @@
 # NavBarResponsive
-## Ce projet est une NavBarResponsive codée en HTML, CSS et JS. Il a été conçu pour afficher une barre de navigation réactive sur les appareils mobiles et les ordinateurs de bureau.
+## Ce projet est une NavBarResponsive de LiveCode codée en HTML, CSS et JS. Il a été conçu pour afficher une barre de navigation réactive sur les appareils mobiles et les ordinateurs de bureau.
 
 
 # Contenu
