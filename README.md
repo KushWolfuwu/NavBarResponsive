@@ -15,6 +15,4 @@ Modifiez le fichier HTML pour y inclure vos propres informations
 Personnalisez les styles CSS pour correspondre à votre propre style et préférences
 Ajoutez des liens et des pages à la navigation à l'aide de JavaScript
 
-# Auteur
 
-### Ce projet a été créé par [KushWolf].
