@@ -1,18 +1,28 @@
-# NavBarResponsive
-## Ce projet est une NavBarResponsive de LiveCode codée en HTML, CSS et JS. Il a été conçu pour afficher une barre de navigation réactive sur les appareils mobiles et les ordinateurs de bureau.
+# NavBarResponsive Component
+
+## This project is a NavBarResponsive , built using HTML, CSS, and JS. It is designed to display a responsive navigation bar on both mobile devices and desktop computers.
+
+# Contents
+The NavBarResponsive includes the following elements:
+
+Brand Logo or Name
+Toggle Button to open and close the navigation
+Navigation Menu with links to pages
+How to Use this Project
+Download or clone the repository to your local machine.
+Modify the HTML file to include your own information.
+Customize the CSS styles to match your own style and preferences.
+Use JavaScript to add links and pages to the navigation.
 
 
-# Contenu
+# License
+This project is open-source.
 
-## La NavBarResponsive comprend les éléments suivants :
+Feel free to use, modify, and distribute it.
 
-Logo ou nom de la marque
-Bouton pour ouvrir et fermer la navigation
-Menu de navigation avec liens vers les pages
-Comment utiliser ce projet
-Téléchargez ou clonez le dépôt
-Modifiez le fichier HTML pour y inclure vos propres informations
-Personnalisez les styles CSS pour correspondre à votre propre style et préférences
-Ajoutez des liens et des pages à la navigation à l'aide de JavaScript
+# Acknowledgments
+We want to thank LiveCode for providing this NavBarResponsive component and encouraging developers to create responsive and user-friendly navigation bars.
 
+For any questions or support, please contact us at paul.margueritte@icloud.com.
 
+Happy coding!
